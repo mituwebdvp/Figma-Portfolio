@@ -1,0 +1,152 @@
+.slider_area {
+    width:100% ;
+    height:675px;
+}
+
+
+.carousel-item img {
+    height:675px;
+}
+
+.slider_heading {
+    width:100% ;
+    height:675px;
+    background: rgba(0, 0, 0, 0.349);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.slide-img {
+    width: 600px;
+}
+
+.slider-group {
+    display: flex !important;
+    justify-content: center;
+}
+
+
+
+.slick-prev::before,
+.slick-next::before {
+    color:rgba(30, 143, 255, 0.716);
+    font-size: 2.5rem;
+}
+
+.slick-prev,
+.slick-next {
+    width: 2.5rem;
+    height: 2.5rem;
+    z-index: 2;
+}
+
+.slick-list {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.slick-prev {
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
+}
+
+
+
+
+
+/* accordion area */
+
+.accordion-area {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+} 
+
+.trusted-imggroup {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin:20px;
+    margin-top: -30px;
+    margin-bottom: 80px;
+}
+
+
+.trusted-img {
+    width:130px;
+    height:20px;
+}
+
+.trusted-img2 {
+    width:200px;
+    height:160px;
+}
+
+.trusted-img4 {
+    width:160px;
+    height:60px;
+}
+
+
+.trusted-img  {
+    width:160px;
+    height:50px;
+}
+
+.footer-area {
+    background: black;
+    width:100%;
+    height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+
+/* responsive */
+/*  
+@media only screen and (max-width:1024px) {
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+}  */
